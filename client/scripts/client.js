@@ -1,6 +1,7 @@
 const app = angular.module( 'app', []);
 
 app.controller('UnitTestController', ['$scope', 'UnitTestService', function($scope, UnitTestService){
+  $scope.title = "Front End Unit Tests";
   $scope.inputValue;
   $scope.submitInput = function(inputValue){
     $scope.outputValue = UnitTestService.submitInput(inputValue);

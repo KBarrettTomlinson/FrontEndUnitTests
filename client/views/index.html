@@ -9,8 +9,14 @@
   </head>
 
   <body ng-controller="UnitTestController">
-    <input ng-model=inputValue></input>
-    <button ng-click=submitInput(inputValue)>click</button>
-    {{outputValue}}
+    <div>{{title}}</div>
+    <div>
+      <input ng-model=inputValue></input>
+      <button ng-click=submitInput(inputValue)>click</button>
+    </div>
+    <div>
+      {{outputValue}}
+    </div>
+
   </body>
 </html>

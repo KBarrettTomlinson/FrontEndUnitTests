@@ -13,7 +13,7 @@ module.exports = function(grunt){
       scripts: {
         expand: true,
         cwd: 'client/scripts',
-        src: ['client.js','*.js','**/*.js'],
+        src: ['client.js','*.js'],
         dest: 'server/public/scripts/'
       },
       css: {
